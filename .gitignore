@@ -1,0 +1,12 @@
+data/coco
+data/referit/images
+data/referit/mask
+
+external/
+
+Gref/*
+unc/*
+unc+/*
+referit/*
+
+*.pyc
