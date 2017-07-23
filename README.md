@@ -48,7 +48,7 @@ Specify several options/flags and then run `main.py`:
 - `-w`: `resnet` or `deeplab`. Specify pre-trained weights.
 - `-n`: `LSTM` or `RMI`. Model name.
 - `-d`: `Gref` or `unc` or `unc+` or `referit`. Specify dataset.
-- `-t`: `train` or `trainval` or `val` or `testA` or `testB`. Which set to train/test on.
+- `-t`: `train` or `trainval` or `val` or `test` or `testA` or `testB`. Which set to train/test on.
 - `-i`: Number of training iterations in training mode. The iteration number of a snapshot in testing mode. 
 - `-s`: Used only in training mode. How many iterations per snapshot.
 - `-v`: Used only in testing mode. Whether to visualize the prediction. Default is False.

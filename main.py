@@ -227,7 +227,7 @@ if __name__ == "__main__":
     parser.add_argument('-v', default = False, action = 'store_true')
     parser.add_argument('-c', default = False, action = 'store_true') # whether or not apply DenseCRF
     parser.add_argument('-w', type = str) # 'resnet' 'deeplab'
-    parser.add_argument('-t', type = str) # 'train' 'trainval' 'val' 'testA' 'testB'
+    parser.add_argument('-t', type = str) # 'train' 'trainval' 'val' 'test' 'testA' 'testB'
 
     args = parser.parse_args()
     os.environ['CUDA_VISIBLE_DEVICES'] = args.g
